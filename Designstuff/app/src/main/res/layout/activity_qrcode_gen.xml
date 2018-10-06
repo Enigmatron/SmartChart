@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QRCodeGenFragment">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etInput"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:hint="Enter Text"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCreate"
+        android:text="Generate Qr Code"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/etInput"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnCreate"/>
+
+</RelativeLayout>

@@ -20,6 +20,6 @@ class SMFileHandler {
     }
 
     boolean setCurrentFile(String name){
-
+        return(false);
     }
 }

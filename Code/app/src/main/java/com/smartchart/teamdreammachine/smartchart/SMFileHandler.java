@@ -2,20 +2,20 @@ package com.smartchart.teamdreammachine.smartchart;
 
 import java.io.File;
 
-class FileWriter {
+class SMFileHandler {
     public enum StoreType{
         graph,
         dataset,
 
     }
-    private static final FileWriter ourInstance = new FileWriter();
+    private static final SMFileHandler ourInstance = new SMFileHandler();
 
-    static FileWriter getInstance() {
+    static SMFileHandler getInstance() {
         return ourInstance;
     }
     static File currNameFile;
 
-    private FileWriter() {
+    private SMFileHandler() {
 
     }
 

@@ -30,5 +30,4 @@ public class Graph {
     public LinkedList<String> getCategories() {return(this.categories);}
     public ArrayList<DataPoints> getPointList() {return(this.pointList);}
 
-
 }

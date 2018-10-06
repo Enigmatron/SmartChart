@@ -13,6 +13,7 @@ public class TableRow {
     private boolean validXY;
     private HashMap<String, String> valuePairs;
 
+    // constructors
     public TableRow(int id, String name, float x, float y, HashMap<String, String> valuePairs) {
         this.id = id; this.name = name; this.x = x; validX =true; this.y = y; validY = true; validXY = true; this.valuePairs = valuePairs;
     }
@@ -22,9 +23,12 @@ public class TableRow {
     public TableRow(int id, String name, HashMap<String, String> valuePairs) {
         this.id = id; this.name = name; this.valuePairs = valuePairs;
     }
+    public TableRow(int id) {
+        this.id = id; this.validX = false; this.validY = false; this.validXY = false;
+    }
 
 
-
+    // get, set and remove methods
     public int getID() {return(this.id);}
     public String getName() {return(this.name);}
     public void setName(String name) {this.name=name;}
@@ -43,5 +47,8 @@ public class TableRow {
     public String removePair(String key) {return(this.valuePairs.remove(key));}
     public HashMap<String, String> removeValuePairs() {HashMap<String, String> temp = this.valuePairs; this.valuePairs = null; return(temp);}
 
-
+    @Override
+    public String toString() {
+        return("ID=" + String.valueOf(this.id) + " x=" + String.valueOf(this.x) + " y=" + String.valueOf(this.y) + " pairs=" + valuePairs.toString());
+    }
 }

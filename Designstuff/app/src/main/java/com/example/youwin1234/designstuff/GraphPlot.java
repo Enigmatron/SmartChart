@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.LayoutInflater;
+import android.widget.Toast;
 
 import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.components.Description;
@@ -44,13 +45,14 @@ public class GraphPlot extends Fragment {
         pieChart = (PieChart) v.findViewById(id.idPieChart);
 
         Description description = new Description();
-        description.setText("place holder description");
+        description.setText("powered by Hooli");
         pieChart.setDescription(description);
         //pieChart.setUsePercentValues(true);
-        pieChart.setHoleColor(Color.BLUE);
+        //pieChart.setHoleColor(Color.BLUE);
         pieChart.setCenterTextColor(Color.BLACK);
         pieChart.setHoleRadius(25f);
-        pieChart.setCenterText("center placeholder");
+        pieChart.setTransparentCircleAlpha(0);
+        pieChart.setCenterText("IntelliGraph");
         pieChart.setCenterTextSize(10);
         pieChart.setDrawEntryLabels(true);
         pieChart.setEntryLabelTextSize(20);
@@ -65,6 +67,17 @@ public class GraphPlot extends Fragment {
                 Log.d(TAG, "onValueSelected: " + e.toString());
                 Log.d(TAG, "onValueSelected: " + h.toString());
 
+                int pos1 = e.toString().indexOf("y: ");
+                String value = e.toString().substring(pos1 + 3);
+
+                for(int i = 0; i < yData.length; i++) {
+                    if(yData[i] == Float.parseFloat(value)) {
+                        pos1 = i;
+                    }
+                }
+                String category = xData[pos1];
+                Toast.makeText(getActivity(), "Category: " + category + "\n" + "Value: " + value, Toast.LENGTH_LONG).show();
+
             }
 
             @Override
@@ -75,46 +88,6 @@ public class GraphPlot extends Fragment {
         return v;
     }
 
-/*
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(graph_testing);
-        Log.d(TAG, "onCreate: start to create chart");
-
-        pieChart = (PieChart) findViewById(id.idPieChart);
-
-        Description description = new Description();
-        description.setText("place holder description");
-        pieChart.setDescription(description);
-        //pieChart.setUsePercentValues(true);
-        pieChart.setHoleColor(Color.BLUE);
-        pieChart.setCenterTextColor(Color.BLACK);
-        pieChart.setHoleRadius(25f);
-        pieChart.setCenterText("center placeholder");
-        pieChart.setCenterTextSize(10);
-        pieChart.setDrawEntryLabels(true);
-        pieChart.setEntryLabelTextSize(20);
-        pieChart.setBackgroundColor(Color.MAGENTA);
-
-        addDataSet();
-
-        pieChart.setOnChartValueSelectedListener(new OnChartValueSelectedListener() {
-            @Override
-            public void onValueSelected(Entry e, Highlight h) {
-                Log.d(TAG, "onValueSelected: Value select from chart");
-                Log.d(TAG, "onValueSelected: " + e.toString());
-                Log.d(TAG, "onValueSelected: " + h.toString());
-
-            }
-
-            @Override
-            public void onNothingSelected() {
-
-            }
-        });
-    }
-*/
     private void addDataSet() {
         Log.d(TAG, "addDataSet started");
         ArrayList<PieEntry> yEntries = new ArrayList<>();
@@ -128,19 +101,19 @@ public class GraphPlot extends Fragment {
         }
 
         // create the data set
-        PieDataSet pieDataSet = new PieDataSet(yEntries, "test y data");
+        PieDataSet pieDataSet = new PieDataSet(yEntries, "Data Key");
         pieDataSet.setSliceSpace(2);
         pieDataSet.setValueTextSize(12);
 
         // add colors to dataset
         ArrayList<Integer> colors = new ArrayList<>();
-        colors.add(Color.YELLOW);
-        colors.add(Color.GREEN);
-        colors.add(Color.DKGRAY);
-        colors.add(Color.CYAN);
-        colors.add(Color.WHITE);
-        colors.add(Color.MAGENTA);
-        colors.add(Color.RED);
+        colors.add(0xFFFFFFFF);
+        colors.add(0xBCAF8F0F);
+        colors.add(0xF00F9F0A);
+        colors.add(0xB00020AA);
+        colors.add(0xFFC0C0C0);
+        colors.add(0xBA33FCAF);
+        colors.add(0x99000009);
 
         pieDataSet.setColors(colors);
 

@@ -92,6 +92,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_Graph:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new GraphPlot()).commit();
                 break;
+            case R.id.nav_BarGraph:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new GraphBar()).commit();
+                break;
         }
         drawer.closeDrawer(GravityCompat.START);
         return true;
@@ -132,7 +135,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
     }
     public void browser1(View view){
-        Intent browserIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.intelligraph.org"));
+        Intent browserIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("www.intelligraph.org"));
         startActivity(browserIntent);
     }
 }

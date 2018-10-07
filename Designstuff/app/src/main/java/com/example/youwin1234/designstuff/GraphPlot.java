@@ -54,7 +54,7 @@ public class GraphPlot extends Fragment {
         pieChart.setCenterTextSize(10);
         pieChart.setDrawEntryLabels(true);
         pieChart.setEntryLabelTextSize(20);
-        pieChart.setBackgroundColor(0xc1d7ee);
+        pieChart.setBackgroundColor(0xc1d7eeff);
 
         addDataSet();
 

@@ -1,0 +1,4 @@
+#Sun Oct 07 10:54:04 CDT 2018
+base.0=/Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/build/intermediates/transforms/dexMerger/debug/4
+path.0=classes.dex
+renamed.0=classes.dex

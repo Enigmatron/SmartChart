@@ -1,0 +1,244 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:17:1-55:12
+MERGED from [com.android.support:design:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/98d0881709051ab49d27f754b85058b4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/4d9d0f692720128f66495346ef3a5f2b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/7d9244dc4305fac910302c4a60a09cff/AndroidManifest.xml:2:1-11:12
+MERGED from [com.jjoe64:graphview:4.2.2] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/graphview-4.2.2.aar/3b04dc17a4ba42d437adb0b1e6f8c218/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/62e7196364e548f66da50cffc0cef887/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c919a5866fa2565938943714c227a8af/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/4cb222a967089fdc903e55e85d346d2d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/1a3ceaf8825793e2f2e088a84d44fe98/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/7079693efd4d9e45e9e4ba5dc3f40bce/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/82755d9619dac13debce09b1020603b3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/31a913b2f883d7bd28f7b5e4a6a0f49c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/1792b9fc55c01fb70d3d4683aae453d0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/9c950388f06ae3e6d2338ebf57488cb2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/7ead1af8690cd6a65570f7c78857480b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/d8a41f922223abe3a0b49a3181f99983/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/5f01e4a11522ecac2bb8b15ac558d21c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/cf9b32522170eb0668f4039b1536b815/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/354da26720feb4ce27b378c16f152130/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/c5aec114a5820a26d9cb04af3e7d0556/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/ac33d0d4be3e2bbc451b11b062a0f4c8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/2c68aad7951217e13fee9ccdcece3468/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/039288c484bb4f4534cec6ca10be6ccf/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f942eed00e5d6889abab1a0bc569031e/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/72d59b1ae6196d5c5160939ffcebe780/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/f1b598a68f3d82bcb60d30ab94d90b85/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b8178d40efccc6a965caae28f549782b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/eb93250b85240f1a781895fbfc2ab790/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/75defc1561563a30a42ad5a5ad1a0598/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/16e250e3dfbf39a5401a92b61c6dd1e7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/3b1005b7c3ce28ed7aeac40f66a5f146/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/e88210fd8235d25d70fc0f5751eb2ba5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/70b898d5145d0ca6db2afc42fc847f53/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/94272e251c6316c34c6d08f0794da6f2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a241be40e5728f42d5f746a872774949/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:3:5-49
+		INJECTED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml
+		ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml
+		ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:5:5-22:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:45:5-53:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:45:5-53:19
+MERGED from [com.android.support:design:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/98d0881709051ab49d27f754b85058b4/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/98d0881709051ab49d27f754b85058b4/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/7d9244dc4305fac910302c4a60a09cff/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/7d9244dc4305fac910302c4a60a09cff/AndroidManifest.xml:9:5-20
+MERGED from [com.jjoe64:graphview:4.2.2] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/graphview-4.2.2.aar/3b04dc17a4ba42d437adb0b1e6f8c218/AndroidManifest.xml:11:5-12:19
+MERGED from [com.jjoe64:graphview:4.2.2] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/graphview-4.2.2.aar/3b04dc17a4ba42d437adb0b1e6f8c218/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/039288c484bb4f4534cec6ca10be6ccf/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/039288c484bb4f4534cec6ca10be6ccf/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f942eed00e5d6889abab1a0bc569031e/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f942eed00e5d6889abab1a0bc569031e/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/039288c484bb4f4534cec6ca10be6ccf/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:8:9-37
+	android:roundIcon
+		ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.youwin1234.designstuff.MainActivity
+ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:12:9-20:20
+	android:theme
+		ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:14:13-56
+	android:name
+		ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:13:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:18:27-74
+activity#com.example.youwin1234.designstuff.QRScan
+ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:21:9-53
+	android:name
+		ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml:21:19-41
+uses-sdk
+INJECTED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml
+INJECTED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:19:5-43
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:19:5-43
+MERGED from [com.android.support:design:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/98d0881709051ab49d27f754b85058b4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/98d0881709051ab49d27f754b85058b4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/4d9d0f692720128f66495346ef3a5f2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/4d9d0f692720128f66495346ef3a5f2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/7d9244dc4305fac910302c4a60a09cff/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/7d9244dc4305fac910302c4a60a09cff/AndroidManifest.xml:5:5-7:41
+MERGED from [com.jjoe64:graphview:4.2.2] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/graphview-4.2.2.aar/3b04dc17a4ba42d437adb0b1e6f8c218/AndroidManifest.xml:7:5-9:41
+MERGED from [com.jjoe64:graphview:4.2.2] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/graphview-4.2.2.aar/3b04dc17a4ba42d437adb0b1e6f8c218/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/62e7196364e548f66da50cffc0cef887/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/62e7196364e548f66da50cffc0cef887/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c919a5866fa2565938943714c227a8af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c919a5866fa2565938943714c227a8af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/4cb222a967089fdc903e55e85d346d2d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/4cb222a967089fdc903e55e85d346d2d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/1a3ceaf8825793e2f2e088a84d44fe98/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/1a3ceaf8825793e2f2e088a84d44fe98/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/7079693efd4d9e45e9e4ba5dc3f40bce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/7079693efd4d9e45e9e4ba5dc3f40bce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/82755d9619dac13debce09b1020603b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/82755d9619dac13debce09b1020603b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/31a913b2f883d7bd28f7b5e4a6a0f49c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/31a913b2f883d7bd28f7b5e4a6a0f49c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/1792b9fc55c01fb70d3d4683aae453d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/1792b9fc55c01fb70d3d4683aae453d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/9c950388f06ae3e6d2338ebf57488cb2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/9c950388f06ae3e6d2338ebf57488cb2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/7ead1af8690cd6a65570f7c78857480b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/7ead1af8690cd6a65570f7c78857480b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/d8a41f922223abe3a0b49a3181f99983/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/d8a41f922223abe3a0b49a3181f99983/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/5f01e4a11522ecac2bb8b15ac558d21c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/5f01e4a11522ecac2bb8b15ac558d21c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/cf9b32522170eb0668f4039b1536b815/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/cf9b32522170eb0668f4039b1536b815/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/354da26720feb4ce27b378c16f152130/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/354da26720feb4ce27b378c16f152130/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/c5aec114a5820a26d9cb04af3e7d0556/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/c5aec114a5820a26d9cb04af3e7d0556/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/ac33d0d4be3e2bbc451b11b062a0f4c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/ac33d0d4be3e2bbc451b11b062a0f4c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/2c68aad7951217e13fee9ccdcece3468/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/2c68aad7951217e13fee9ccdcece3468/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/039288c484bb4f4534cec6ca10be6ccf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/039288c484bb4f4534cec6ca10be6ccf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f942eed00e5d6889abab1a0bc569031e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f942eed00e5d6889abab1a0bc569031e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/72d59b1ae6196d5c5160939ffcebe780/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/72d59b1ae6196d5c5160939ffcebe780/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/f1b598a68f3d82bcb60d30ab94d90b85/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/f1b598a68f3d82bcb60d30ab94d90b85/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b8178d40efccc6a965caae28f549782b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b8178d40efccc6a965caae28f549782b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/eb93250b85240f1a781895fbfc2ab790/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/eb93250b85240f1a781895fbfc2ab790/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/75defc1561563a30a42ad5a5ad1a0598/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/75defc1561563a30a42ad5a5ad1a0598/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/16e250e3dfbf39a5401a92b61c6dd1e7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/16e250e3dfbf39a5401a92b61c6dd1e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/3b1005b7c3ce28ed7aeac40f66a5f146/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/3b1005b7c3ce28ed7aeac40f66a5f146/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/e88210fd8235d25d70fc0f5751eb2ba5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/e88210fd8235d25d70fc0f5751eb2ba5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/70b898d5145d0ca6db2afc42fc847f53/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/70b898d5145d0ca6db2afc42fc847f53/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/94272e251c6316c34c6d08f0794da6f2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/94272e251c6316c34c6d08f0794da6f2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a241be40e5728f42d5f746a872774949/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a241be40e5728f42d5f746a872774949/AndroidManifest.xml:20:5-44
+INJECTED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml
+INJECTED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml
+		ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml
+		ADDED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/youwin1234/Documents/GitHub/SmartChart/Designstuff/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:21:22-62
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:26:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:25:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:28:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:32:5-34:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:34:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:33:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:35:5-37:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:37:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:36:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:38:5-40:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:40:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:39:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:41:5-43:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:43:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:42:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:46:9-52:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:49:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:48:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:50:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:52:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /Users/youwin1234/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/a078c1e11dd6e9ce0741b377b2d2d421/AndroidManifest.xml:47:13-74

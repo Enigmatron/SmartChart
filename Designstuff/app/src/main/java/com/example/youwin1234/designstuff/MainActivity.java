@@ -47,6 +47,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 //            case R.id.nav_QRscanner:
 //                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new QRScan()).commit();
 //                break;
+            case R.id.nav_QRscanner:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new QRScan()).commit();
+                break;
             case R.id.nav_share:
                 Toast.makeText(this,"Share",Toast.LENGTH_SHORT).show();
                 break;

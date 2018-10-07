@@ -44,13 +44,14 @@ public class GraphPlot extends Fragment {
         pieChart = (PieChart) v.findViewById(id.idPieChart);
 
         Description description = new Description();
-        description.setText("place holder description");
+        description.setText("powered by Hooli");
         pieChart.setDescription(description);
         //pieChart.setUsePercentValues(true);
-        pieChart.setHoleColor(Color.BLUE);
+        //pieChart.setHoleColor(Color.BLUE);
         pieChart.setCenterTextColor(Color.BLACK);
         pieChart.setHoleRadius(25f);
-        pieChart.setCenterText("center placeholder");
+        pieChart.setTransparentCircleAlpha(0);
+        pieChart.setCenterText("IntelliGraph");
         pieChart.setCenterTextSize(10);
         pieChart.setDrawEntryLabels(true);
         pieChart.setEntryLabelTextSize(20);
@@ -77,46 +78,6 @@ public class GraphPlot extends Fragment {
         return v;
     }
 
-/*
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(graph_testing);
-        Log.d(TAG, "onCreate: start to create chart");
-
-        pieChart = (PieChart) findViewById(id.idPieChart);
-
-        Description description = new Description();
-        description.setText("place holder description");
-        pieChart.setDescription(description);
-        //pieChart.setUsePercentValues(true);
-        pieChart.setHoleColor(Color.BLUE);
-        pieChart.setCenterTextColor(Color.BLACK);
-        pieChart.setHoleRadius(25f);
-        pieChart.setCenterText("center placeholder");
-        pieChart.setCenterTextSize(10);
-        pieChart.setDrawEntryLabels(true);
-        pieChart.setEntryLabelTextSize(20);
-        pieChart.setBackgroundColor(Color.MAGENTA);
-
-        addDataSet();
-
-        pieChart.setOnChartValueSelectedListener(new OnChartValueSelectedListener() {
-            @Override
-            public void onValueSelected(Entry e, Highlight h) {
-                Log.d(TAG, "onValueSelected: Value select from chart");
-                Log.d(TAG, "onValueSelected: " + e.toString());
-                Log.d(TAG, "onValueSelected: " + h.toString());
-
-            }
-
-            @Override
-            public void onNothingSelected() {
-
-            }
-        });
-    }
-*/
     private void addDataSet() {
         Log.d(TAG, "addDataSet started");
         ArrayList<PieEntry> yEntries = new ArrayList<>();

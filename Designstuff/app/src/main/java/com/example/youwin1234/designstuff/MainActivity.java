@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         if(savedInstanceState == null){
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ProfileFragment()).commit();
-        navigationView.setCheckedItem(R.id.nav_QRCodeGen);}
+        navigationView.setCheckedItem(R.id.nav_profile);}
     }
 
     @Override

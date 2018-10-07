@@ -44,13 +44,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_QRCodeGen:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new QRCodeGenFragment()).commit();
                 break;
+            //case R.id.nav_QCscanner:
+             //   getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new QRScan()).commit();
+               // break;
             case R.id.nav_share:
                 Toast.makeText(this,"Share",Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.nav_camera:
-            Toast.makeText(this,"Picture",Toast.LENGTH_SHORT).show();
-            break;
-
         }
         drawer.closeDrawer(GravityCompat.START);
         return true;

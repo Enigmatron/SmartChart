@@ -10,13 +10,14 @@
               android:icon="@drawable/ic_qrcodegen"
               android:title="QR Code Generate"
               />
+        <item android:id="@+id/nav_QRscanner"
+            android:icon="@drawable/ic_camera"
+            android:title="Scan A QR Code"/>
     </group>
 
     <item android:title="">
         <menu>
-            <item android:id="@+id/nav_camera"
-                android:icon="@drawable/ic_camera"
-                android:title="Scan A QR Code"/>
+
             <item android:id="@+id/nav_share"
                 android:icon="@drawable/ic_share"
                 android:title="Share A QR Code"/>

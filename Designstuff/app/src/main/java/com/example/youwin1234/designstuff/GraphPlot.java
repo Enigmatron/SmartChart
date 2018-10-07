@@ -2,8 +2,14 @@ package com.example.youwin1234.designstuff;
 
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.LayoutInflater;
 
 import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.components.Description;
@@ -20,7 +26,7 @@ import java.util.ArrayList;
 import static com.example.youwin1234.designstuff.R.*;
 import static com.example.youwin1234.designstuff.R.layout.graph_testing;
 
-public class GraphPlot extends AppCompatActivity {
+public class GraphPlot extends Fragment {
 
     private static String TAG = "GraphPlot";
 
@@ -29,6 +35,47 @@ public class GraphPlot extends AppCompatActivity {
     PieChart pieChart;
 
 
+    @Override
+    public View onCreateView( LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState){
+        View v = inflater.inflate(layout.graph_testing, container, false);
+
+        Log.d(TAG, "onCreate: start to create chart");
+
+        pieChart = (PieChart) v.findViewById(id.idPieChart);
+
+        Description description = new Description();
+        description.setText("place holder description");
+        pieChart.setDescription(description);
+        //pieChart.setUsePercentValues(true);
+        pieChart.setHoleColor(Color.BLUE);
+        pieChart.setCenterTextColor(Color.BLACK);
+        pieChart.setHoleRadius(25f);
+        pieChart.setCenterText("center placeholder");
+        pieChart.setCenterTextSize(10);
+        pieChart.setDrawEntryLabels(true);
+        pieChart.setEntryLabelTextSize(20);
+        pieChart.setBackgroundColor(0xc1d7ee);
+
+        addDataSet();
+
+        pieChart.setOnChartValueSelectedListener(new OnChartValueSelectedListener() {
+            @Override
+            public void onValueSelected(Entry e, Highlight h) {
+                Log.d(TAG, "onValueSelected: Value select from chart");
+                Log.d(TAG, "onValueSelected: " + e.toString());
+                Log.d(TAG, "onValueSelected: " + h.toString());
+
+            }
+
+            @Override
+            public void onNothingSelected() {
+
+            }
+        });
+        return v;
+    }
+
+/*
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -67,7 +114,7 @@ public class GraphPlot extends AppCompatActivity {
             }
         });
     }
-
+*/
     private void addDataSet() {
         Log.d(TAG, "addDataSet started");
         ArrayList<PieEntry> yEntries = new ArrayList<>();

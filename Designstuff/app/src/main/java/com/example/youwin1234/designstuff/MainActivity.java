@@ -1,5 +1,7 @@
 package com.example.youwin1234.designstuff;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v4.app.Fragment;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -10,8 +12,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 import android.widget.Toolbar;
+
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private DrawerLayout drawer;
@@ -44,14 +48,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_QRCodeGen:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new QRCodeGenFragment()).commit();
                 break;
-//            case R.id.nav_QRscanner:
-//                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new QRScan()).commit();
-//                break;
             case R.id.nav_QRscanner:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new QRScan()).commit();
                 break;
-            case R.id.nav_share:
-                Toast.makeText(this,"Share",Toast.LENGTH_SHORT).show();
+            case R.id.nav_Graph:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new GraphPlot()).commit();
                 break;
         }
         drawer.closeDrawer(GravityCompat.START);
@@ -65,5 +66,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         } else{
         super.onBackPressed();
     }
+    }
+    public void browser1(View view){
+        Intent browserIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.intelligraph.org"));
+        startActivity(browserIntent);
     }
 }

@@ -20,5 +20,6 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Intelligraph.org"/>
+        android:text="Intelligraph.org"
+        android:onClick="browser1"/>
 </LinearLayout>

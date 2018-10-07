@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
     }
     public void browser1(View view){
-        Intent browserIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("www.intelligraph.org"));
+        Intent browserIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.intelligraph.org"));
         startActivity(browserIntent);
     }
 }

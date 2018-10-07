@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         if(savedInstanceState == null){
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ProfileFragment()).commit();
-        navigationView.setCheckedItem(R.id.nav_QRCodeGen);}
+        navigationView.setCheckedItem(R.id.nav_profile);}
     }
 
     @Override
@@ -44,6 +44,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_QRCodeGen:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new QRCodeGenFragment()).commit();
                 break;
+//            case R.id.nav_QRscanner:
+//                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new QRScan()).commit();
+//                break;
             case R.id.nav_QRscanner:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new QRScan()).commit();
                 break;

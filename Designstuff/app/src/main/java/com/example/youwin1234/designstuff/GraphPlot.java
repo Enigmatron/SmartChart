@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.LayoutInflater;
+import android.widget.Toast;
 
 import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.components.Description;
@@ -66,7 +67,16 @@ public class GraphPlot extends Fragment {
                 Log.d(TAG, "onValueSelected: " + e.toString());
                 Log.d(TAG, "onValueSelected: " + h.toString());
 
-                //int pos1 = e.toString().indexOf("(sum): ");
+                int pos1 = e.toString().indexOf("y: ");
+                String value = e.toString().substring(pos1 + 3);
+
+                for(int i = 0; i < yData.length; i++) {
+                    if(yData[i] == Float.parseFloat(value)) {
+                        pos1 = i;
+                    }
+                }
+                String category = xData[pos1];
+                Toast.makeText(getActivity(), "Category: " + category + "\n" + "Value: " + value, Toast.LENGTH_LONG).show();
 
             }
 

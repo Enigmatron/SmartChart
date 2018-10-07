@@ -101,7 +101,7 @@ public class GraphPlot extends Fragment {
         }
 
         // create the data set
-        PieDataSet pieDataSet = new PieDataSet(yEntries, "test y data");
+        PieDataSet pieDataSet = new PieDataSet(yEntries, "Data Key");
         pieDataSet.setSliceSpace(2);
         pieDataSet.setValueTextSize(12);
 

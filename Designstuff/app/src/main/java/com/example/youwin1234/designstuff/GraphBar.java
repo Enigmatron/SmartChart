@@ -91,7 +91,7 @@ public class GraphBar extends Fragment {
         }
 
         // create data set
-        BarDataSet barDataSet = new BarDataSet(yEntries, "test y data");
+        BarDataSet barDataSet = new BarDataSet(yEntries, "Data Key");
         //barDataSet.setStackLabels();
 
         // add colors to set

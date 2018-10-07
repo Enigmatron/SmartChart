@@ -107,13 +107,13 @@ public class GraphPlot extends Fragment {
 
         // add colors to dataset
         ArrayList<Integer> colors = new ArrayList<>();
-        colors.add(Color.YELLOW);
-        colors.add(Color.GREEN);
-        colors.add(Color.DKGRAY);
-        colors.add(Color.CYAN);
-        colors.add(Color.WHITE);
-        colors.add(Color.MAGENTA);
-        colors.add(Color.RED);
+        colors.add(0xFFFFFFFF);
+        colors.add(0xBCAF8F0F);
+        colors.add(0xF00F9F0A);
+        colors.add(0xB00020AA);
+        colors.add(0xFFC0C0C0);
+        colors.add(0xBA33FCAF);
+        colors.add(0x99000009);
 
         pieDataSet.setColors(colors);
 

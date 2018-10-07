@@ -81,26 +81,26 @@ public class GraphBar extends Fragment {
     private void addDataSet() {
         Log.d(TAG, "addDataSet: started");
         ArrayList<BarEntry> yEntries = new ArrayList<>();
-        ArrayList<String> xEntries = new ArrayList<>();
+        ArrayList<Integer> xEntries = new ArrayList<>();
 
         for(int i = 0; i < yData.length; i++) {
-            yEntries.add(new BarEntry(yData[i], i));
+            yEntries.add(new BarEntry(i, yData[i]));
         }
         for(int i = 0; i < xData.length; i++) {
-            xEntries.add(xData[i]);
+            xEntries.add(i);
         }
 
         // create data set
-        BarDataSet barDataSet = new BarDataSet(yEntries, "test y data");
+        BarDataSet barDataSet = new BarDataSet(yEntries, "Data Key");
         //barDataSet.setStackLabels();
 
         // add colors to set
         ArrayList<Integer> colors = new ArrayList<>();
-        colors.add(0xFFFFFFFF);
+        colors.add(0xFAFAFAFA);
         colors.add(0xBCAF8F0F);
         colors.add(0xF00F9F0A);
         colors.add(0xB00020AA);
-        colors.add(0xFFC0C0C0);
+        colors.add(0xFAACF0F0);
         colors.add(0xBA33FCAF);
         colors.add(0x99000009);
 

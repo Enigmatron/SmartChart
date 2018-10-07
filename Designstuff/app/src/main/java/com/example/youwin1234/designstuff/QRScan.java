@@ -11,7 +11,6 @@ import android.widget.Toast;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
-public class QRScan extends AppCompatActivity {
 
     private Button scan_btn;
 
@@ -50,4 +49,5 @@ public class QRScan extends AppCompatActivity {
             super.onActivityResult(requestCode, requestCode, data);
         }
     }
+
 }

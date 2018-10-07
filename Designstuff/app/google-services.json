@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "339597519942",
+    "firebase_url": "https://intelligraph-218623.firebaseio.com",
+    "project_id": "intelligraph-218623",
+    "storage_bucket": "intelligraph-218623.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339597519942:android:02bf0002f77fa3e5",
+        "android_client_info": {
+          "package_name": "com.example.youwin1234.designstuff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339597519942-clgqtndkbavchv13kjfs9mr6tdp7l34o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSJ9TviiBLIMzg_7YCbpSN3Zjm1rINz4w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

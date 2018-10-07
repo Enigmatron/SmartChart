@@ -16,14 +16,52 @@ import android.view.View;
 import android.widget.Toast;
 import android.widget.Toolbar;
 
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.FirebaseOptions;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
+import java.io.FileInputStream;
+
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private DrawerLayout drawer;
+    private FirebaseAuth mAuth;
+    String name;
+//    = user.getDisplayName();
+    String email ;
+//    = user.getEmail();
+    Uri photoUrl ;
+//    = user.getPhotoUrl();
+
+    // Check if user's email is verified
+    boolean emailVerified;
+//    = user.isEmailVerified();
+
+    // The user's ID, unique to the Firebase project. Do NOT use this value to
+    // authenticate with your backend server, if you have one. Use
+    // FirebaseUser.getIdToken() instead.
+    String uid;
+//    = user.getUid();
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+//        FileInputStream serviceAccount = new FileInputStream("path/to/serviceAccountKey.json");
+//
+//        FirebaseOptions options = new FirebaseOptions.Builder()
+//                .setCredentials(GoogleCredentials.fromStream(serviceAccount))
+//                .setDatabaseUrl("https://<DATABASE_NAME>.firebaseio.com/")
+//                .build();
+//
+//        FirebaseApp.initializeApp(options);
+
+
+        mAuth = FirebaseAuth.getInstance();
         android.support.v7.widget.Toolbar toolbar =findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -57,6 +95,32 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        // Check if user is signed in (non-null) and update UI accordingly.
+        FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
+        if(currentUser != null){
+            String name = currentUser.getDisplayName();
+            String email = currentUser.getEmail();
+            Uri photoUrl = currentUser.getPhotoUrl();
+
+            // Check if user's email is verified
+            boolean emailVerified = currentUser.isEmailVerified();
+
+            // The user's ID, unique to the Firebase project. Do NOT use this value to
+            // authenticate with your backend server, if you have one. Use
+            // FirebaseUser.getIdToken() instead.
+            String uid = currentUser.getUid();
+        }
+        else
+        {
+
+        }
+//
+// updateUI(currentUser);
     }
 
     @Override

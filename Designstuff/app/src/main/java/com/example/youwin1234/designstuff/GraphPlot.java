@@ -65,6 +65,8 @@ public class GraphPlot extends Fragment {
                 Log.d(TAG, "onValueSelected: " + e.toString());
                 Log.d(TAG, "onValueSelected: " + h.toString());
 
+                //int pos1 = e.toString().indexOf("(sum): ");
+
             }
 
             @Override

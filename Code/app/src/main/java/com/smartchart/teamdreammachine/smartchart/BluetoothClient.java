@@ -12,6 +12,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import com.clarifai.clarifai_android_sdk.core.Clarifai;
+
 //import com.google.android.things.bluetooth.BluetoothConnectionManager;
 
 import java.util.Set;
